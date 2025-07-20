@@ -14,7 +14,7 @@ function Home() {
   useEffect(() => {
     const fetchModel = async () => {
       try {
-        const res = await axios.get('http://localhost:1000/View');
+        const res = await axios.get('https://glb-manager-backend.onrender.com/View');
         setFile(res.data);
       } catch (error) {
         console.error("Error fetching the data", error);
