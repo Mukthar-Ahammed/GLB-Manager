@@ -1,0 +1,102 @@
+.Uploadmain{
+    width: 70%;
+    height: 70%;
+    border-radius: 2rem;
+    background-color: rgb(60, 255, 60);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 10rem;
+    left: 17rem;
+    
+}
+
+
+
+
+.formcontainer{
+    height: 100%;
+    width: 60rem;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2rem;
+
+    
+    
+}
+
+
+.formcontainer form{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    flex-direction: column;
+  
+
+}form input{
+    width: 160px;
+    height: 3rem;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: rgb(60, 255, 60);
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+form button{
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: none;
+    color: rgb(60, 255, 60);
+    background-color: black;
+    letter-spacing: 2px;
+    transition: .5s;
+}form button:hover{
+    background-color:rgb(25, 24, 24);
+}
+
+
+.modelpreview{
+    width: 400px;
+    z-index: 0;
+    
+    
+}.fileup{
+    backdrop-filter: blur(10px);
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 1rem;
+    gap: 1rem;
+
+}p{
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}.icon{
+    width: 100%;
+    color: rgb(60, 255, 60);
+}
+.upload-loader {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
