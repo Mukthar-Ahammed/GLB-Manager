@@ -44,7 +44,7 @@ function Uploader() {
 
     try {
       setLoading(true);
-      const res = await axios.post("https://glb-manager-backend.onrender.com/api/Upload", data, {
+      const res = await await axios.post("https://glb-manager-backend.onrender.com/api/upload", data, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
