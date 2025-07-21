@@ -4,7 +4,7 @@ import { upload } from '../utils/storage.js';
 
 const route=express.Router();
 
-route.post('/Upload',upload.single('file'),uploadcontroller)
+route.post('/upload', upload.single('file'), uploadcontroller)
 
 
 
