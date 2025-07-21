@@ -10,7 +10,7 @@ dotenv.config();
 const app=express();
 
 app.use(cors({
-    origin:"https://glb-manager-frontend.onrender.com",
+    origin:["https://glb-manager-frontend.onrender.com","http://localhost:3000"],
     credentials: true
 }))
 
