@@ -33,7 +33,7 @@ function Home() {
               <directionalLight position={[2, 2, 2]} />
               <Suspense fallback={<CanvasLoader />}>
 
-                <GLBmain url={`http://localhost:1000/view/${file.fileId}`} />
+               <GLBmain url={`https://glb-manager-backend.onrender.com/view/${file.fileId}`} />
               </Suspense>
               <OrbitControls />
             </Canvas>
